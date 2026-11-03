@@ -113,7 +113,7 @@ aws sts get-caller-identity         # must show user/admin, not root
 - Terraform for everything, including Service Catalog. No console-only resources.
 - Every AWS resource carries `project`, `owner`, `env` and `cost-centre` tags.
 - Destroy lab resources at the end of each session. Cost stays minimal.
-- Public sample data only. No employer data, secrets, keys or state files in git.
+- Never commit employer data or credentials. See [CONTRIBUTING.md](CONTRIBUTING.md#data-and-credentials-rule). Public sample data only.
 - `main` is protected; changes go through a reviewed pull request.
 - Kubernetes and Datadog are in scope but are the first things to defer if time runs short.
 
