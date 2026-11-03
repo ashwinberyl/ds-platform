@@ -4,6 +4,9 @@ Closes #
 ## What changed
 <!-- One or two lines -->
 
+## How it was verified
+<!-- Commands run and their result, or steps taken to check the change -->
+
 ## Acceptance criteria
 - [ ] All acceptance criteria on the story are ticked
 
